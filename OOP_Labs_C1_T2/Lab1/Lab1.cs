@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using OOP_Labs_C1_T2.Core;
 
 namespace OOP_Labs_C1_T2.Lab1
 {

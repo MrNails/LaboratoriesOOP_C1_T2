@@ -2,9 +2,21 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net6.0-windows</TargetFramework>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <UseWindowsForms>True</UseWindowsForms>
+        <StartupObject>OOP_Labs_C1_T2.Program</StartupObject>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Lab6" />
+      <Folder Include="Lab8\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lab7\OOP_Labs_C1_T2.Windows.csproj" />
+      <ProjectReference Include="..\OOP_Labs_C1_T2.Core\OOP_Labs_C1_T2.Core.csproj" />
+    </ItemGroup>
 
 </Project>

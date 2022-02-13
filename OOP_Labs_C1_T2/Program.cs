@@ -1,12 +1,16 @@
 ﻿using System;
+using OOP_Labs_C1_T2.Core;
 
 namespace OOP_Labs_C1_T2
 {
     public static class Program
     {
+        [STAThread]
         public static void Main(string[] args)
         {
-            IExecutable executable = null;
+            Windows.WindowConfiguration.Configure();
+
+            IExecutable executable = null!;
             int action = -1;
             
             while (true)
@@ -17,7 +21,9 @@ namespace OOP_Labs_C1_T2
                                   "\n\t2 - Laboratory work 2" +
                                   "\n\t3 - Laboratory work 3" +
                                   "\n\t4 - Laboratory work 4" +
-                                  "\n\t5 - Laboratory work 5"
+                                  "\n\t5 - Laboratory work 5" +
+                                  "\n\t7 - Laboratory work 7" +
+                                  "\n\t9 - Laboratory work 9"
                                   );
 
                 var input = Console.ReadLine();
@@ -44,6 +50,12 @@ namespace OOP_Labs_C1_T2
                         break;
                     case 5:
                         executable = new Lab5.Lab5();
+                        break;
+                    case 7:
+                        executable = new Windows.Lab7.Lab7();
+                        break;
+                    case 9:
+                        executable = new Windows.Lab9.Lab9();
                         break;
                     default:
                         Console.WriteLine("Wrong input. Try again.");
