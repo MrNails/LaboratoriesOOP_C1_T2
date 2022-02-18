@@ -22,7 +22,9 @@ namespace OOP_Labs_C1_T2
                                   "\n\t3 - Laboratory work 3" +
                                   "\n\t4 - Laboratory work 4" +
                                   "\n\t5 - Laboratory work 5" +
+                                  "\n\t6 - Laboratory work 6" +
                                   "\n\t7 - Laboratory work 7" +
+                                  "\n\t8 - Laboratory work 8" +
                                   "\n\t9 - Laboratory work 9"
                                   );
 
@@ -51,8 +53,14 @@ namespace OOP_Labs_C1_T2
                     case 5:
                         executable = new Lab5.Lab5();
                         break;
+                    case 6:
+                        executable = new Lab6.Lab6();
+                        break;
                     case 7:
                         executable = new Windows.Lab7.Lab7();
+                        break;
+                    case 8:
+                        executable = new Lab8.Lab8();
                         break;
                     case 9:
                         executable = new Windows.Lab9.Lab9();
