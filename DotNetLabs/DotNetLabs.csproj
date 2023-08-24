@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net7.0-windows</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DotNetLabs.Windows\DotNetLabs.Windows.csproj" />
+      <ProjectReference Include="..\OOP_Labs_C1_T2.Core\OOP_Labs_C1_T2.Core.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Labs_C1_T2.Core", "OOP_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Labs_C1_T2.Windows", "OOP_Labs_C1_T2.Windows\OOP_Labs_C1_T2.Windows.csproj", "{1ADB4A4E-0DD5-4B5E-B3D8-2426D993CAC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLabs", "DotNetLabs\DotNetLabs.csproj", "{1340447A-F722-497D-A6FC-3D695AA6D7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLab2", "DotNetLab2\DotNetLab2.csproj", "{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLabs.Windows", "DotNetLabs.Windows\DotNetLabs.Windows.csproj", "{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{1ADB4A4E-0DD5-4B5E-B3D8-2426D993CAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADB4A4E-0DD5-4B5E-B3D8-2426D993CAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADB4A4E-0DD5-4B5E-B3D8-2426D993CAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1340447A-F722-497D-A6FC-3D695AA6D7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1340447A-F722-497D-A6FC-3D695AA6D7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1340447A-F722-497D-A6FC-3D695AA6D7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1340447A-F722-497D-A6FC-3D695AA6D7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

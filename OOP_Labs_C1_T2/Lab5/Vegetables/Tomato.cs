@@ -4,14 +4,9 @@ public class Tomato : Vegetable
 {
     private static readonly float s_caloriesPer100Gram = 18;
     
-    public Tomato() : this(200)
-    {
-        
-    }
+    public Tomato() : this(200) { }
     
-    public Tomato(float weight) : base(weight)
-    {
-    }
+    public Tomato(float weight) : base(weight) { }
 
     public override float GetCalories()
     {
