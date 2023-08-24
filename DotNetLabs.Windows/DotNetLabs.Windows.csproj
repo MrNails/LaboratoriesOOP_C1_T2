@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
         <OutputType>WinExe</OutputType>
+		<UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,4 +16,7 @@
       </Page>
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.1" />
+    </ItemGroup>
 </Project>

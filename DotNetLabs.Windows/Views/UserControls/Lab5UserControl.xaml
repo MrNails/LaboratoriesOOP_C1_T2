@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="DotNetLabs.Windows.Views.UserControls.Lab5UserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DotNetLabs.Windows.Views.UserControls"
+             xmlns:extended="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300" FontSize="16">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Open"
+                      Click="OpenItem_OnClick"/>
+            <MenuItem Header="Save"
+                      Click="SaveItem_OnClick"/>
+        </Menu>
+        <StackPanel DockPanel.Dock="Right" Width="200">
+            <TextBlock Text="Selected color"
+                       Margin="5 5 5 0"/>
+            <extended:ColorPicker x:Name="CharacterColorPicker" 
+                                  ColorMode="ColorPalette" 
+                                  Margin="5"/>
+            
+            <TextBlock Text="Selected font"
+                       Margin="5 5 5 0"/>
+            <DockPanel Margin="5">
+                <Button x:Name="FontSelectionButton"
+                        DockPanel.Dock="Right"
+                        Content="..."
+                        Width="25"
+                        BorderThickness="0"
+                        Click="FontSelectionButton_OnClick"/>
+                <TextBox x:Name="SelectedFont" 
+                         Text="Empty"
+                         IsReadOnly="True"
+                         Margin="0 0 5 0"/>
+            </DockPanel>
+            
+            <TextBlock Text="New character"
+                       Margin="5 5 5 0"/> 
+            <TextBox x:Name="NewCharTextBox" 
+                     Margin="5" 
+                     MaxLength="1"/>
+            
+            <Button Content="Add character" 
+                    x:Name="AddCharacterButton"
+                    Margin="5"
+                    Click="AddCharacterButton_OnClick"/>
+        </StackPanel>
+        <Canvas x:Name="DrawingSurface" />
+    </DockPanel>
+</UserControl>
