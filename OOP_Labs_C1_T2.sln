@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Labs_C1_T2", "OOP_Labs_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Labs_C1_T2.Core", "OOP_Labs_C1_T2.Core\OOP_Labs_C1_T2.Core.csproj", "{B39A2881-2822-4BB2-B04B-4076C1101586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Labs_C1_T2.Windows", "OOP_Labs_C1_T2.Windows\OOP_Labs_C1_T2.Windows.csproj", "{1ADB4A4E-0DD5-4B5E-B3D8-2426D993CAC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Labs_C1_T2.Windows", "OOP_Labs_C1_T2.Windows\OOP_Labs_C1_T2.Windows.csproj", "{1ADB4A4E-0DD5-4B5E-B3D8-2426D993CAC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLabs", "DotNetLabs\DotNetLabs.csproj", "{1340447A-F722-497D-A6FC-3D695AA6D7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetLabs", "DotNetLabs\DotNetLabs.csproj", "{1340447A-F722-497D-A6FC-3D695AA6D7E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLab2", "DotNetLab2\DotNetLab2.csproj", "{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetLab2", "DotNetLab2\DotNetLab2.csproj", "{EF03875C-EF11-4044-B71F-F59C8AA1ABDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLabs.Windows", "DotNetLabs.Windows\DotNetLabs.Windows.csproj", "{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetLabs.Windows", "DotNetLabs.Windows\DotNetLabs.Windows.csproj", "{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLabs.Lab7", "DotNetLabs.Lab7\DotNetLabs.Lab7.csproj", "{626172AD-124A-472F-BB6F-9B55881582FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36BDE0D3-360C-4D52-87D5-3CE92CC60B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626172AD-124A-472F-BB6F-9B55881582FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626172AD-124A-472F-BB6F-9B55881582FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626172AD-124A-472F-BB6F-9B55881582FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626172AD-124A-472F-BB6F-9B55881582FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,32 @@
+﻿<Page x:Class="DotNetLabs.Windows.Views.Pages.Lab6MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:DotNetLabs.Windows.Views.Pages"
+      mc:Ignorable="d"
+      Title="Lab6MainPage" Height="450" Width="800">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="Action">
+                <MenuItem Header="Cancel" />
+                <Separator />
+                <MenuItem Header="Add" />
+                <MenuItem Header="Edit" />
+                <MenuItem Header="Save" />
+                <MenuItem Header="Find" />
+                <Separator />
+                <MenuItem Header="Delete" />
+            </MenuItem>
+            <MenuItem Header="Print" />
+        </Menu>
+        <ToolBar Name="ToolBar1" 
+                 Margin="3">
+
+        </ToolBar>
+        <TextBlock>
+            <Hyperlink NavigateUri="Lab6VariantPage.xaml">Go on page 2</Hyperlink>
+        </TextBlock>
+    </StackPanel>
+
+</Page>
