@@ -19,25 +19,36 @@ public class Lab2 : IExecutable
         try
         {
             var assembly = Assembly.LoadFrom("DotNetLab2.dll");
-            var factorialClassType = assembly.GetType("DotNetLab2.FactorialClass");
+            var DynamicClassType = assembly.GetType("DotNetLab2.DynamicClass");
 
-            if (factorialClassType == null)
+            if (DynamicClassType == null)
             {
-                Console.WriteLine("FactorialClass type is not exists in assembly DotNetLab2.dll");
+                Console.WriteLine("DynamicClass type is not exists in assembly DotNetLab2.dll");
                 return;
             }
         
-            var factorialClassInstance = assembly.CreateInstance("DotNetLab2.FactorialClass");
-            var method = factorialClassType.GetMethod("Factorial");
+            var DynamicClassInstance = assembly.CreateInstance("DotNetLab2.DynamicClass");
+            var factorialMethod = DynamicClassType.GetMethod("Factorial");
         
-            if (method == null)
+            if (factorialMethod == null)
             {
-                Console.WriteLine("Method Factorial is not exists in class FactorialClass");
+                Console.WriteLine("Method Factorial is not exists in class DynamicClass");
                 return;
             }
 
-            var factorial = method.Invoke(factorialClassInstance, new object[] { num });
+            var factorial = factorialMethod.Invoke(DynamicClassInstance, new object[] { num });
             Console.WriteLine(factorial);
+
+            var triangleAreMethod = DynamicClassType.GetMethod("TriangleArea");
+
+            if (triangleAreMethod == null)
+            {
+                Console.WriteLine("Method Factorial is not exists in class DynamicClass");
+                return;
+            }
+
+            var triangleArea = triangleAreMethod.Invoke(DynamicClassInstance, new object[] { 3, 4, 5 });
+            Console.WriteLine("Triangle (3,4,5) area is {0}", triangleArea);
         }
         catch (Exception e)
         {
